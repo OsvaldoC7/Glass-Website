@@ -1,7 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Nunito';
+}
+
+h1 {
+    color: #426696;
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+
+h2, p {
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+h3 {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
 }
 
 main {
@@ -56,19 +78,68 @@ main {
 
 .link {
     display: flex;
-    margin: 2rem 0rem;
+    margin: 1rem 0rem;
     padding: 1rem 5rem;
     align-items: center;
 }
 
 .link h2 {
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
 }
 
 .music {
     flex: 2;
 }
 
+.user {
+    margin-top: 1rem;
+}
+
+.user img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.pro {
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    border-radius: 2rem;
+    color: white;
+    padding: 0.5rem;
+    margin: 1rem;
+    display: flex;
+}
+
+.pro h2 {
+    flex: 2;
+    color: white;
+    font-weight: 600;
+}
+
+.pro ion-icon {
+    flex: 1;
+    font-size: 2rem;
+    padding-top: 0.8rem;
+    padding-right: 0.5rem;
+}
+
 img {
     width: 50px;
+}
+
+/* Music Section */
+
+.status {
+    margin-bottom: 3rem;
+}
+
+.status input {
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border: none;
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 2rem;
 }
