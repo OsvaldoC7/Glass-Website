@@ -164,6 +164,7 @@ main {
     padding: 1rem;
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
     justify-content: space-between;
+    cursor: move;
 }
 
 .score {
@@ -171,4 +172,9 @@ main {
     background: linear-gradient(to right top, #65dfc9, #6cdbeb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.cards .card.seleccionado {
+    transform: scale(1.02) rotate(-1deg);
+    box-shadow: 0px 0px 20px rgba(149, 153, 159, .16);
 }
