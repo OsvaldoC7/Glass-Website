@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Glass website 31</title>
+        <title>Glass website</title>
         <link rel="stylesheet" href="style.css">
 
     </head>
@@ -15,77 +15,16 @@
         <main>
             <section class="glass">
 
-                <div class="dashboard">
+                <div class="login">
 
-                    <div class="user">
-                        <img src="img/user.png" alt=""/>
-                        <h3>Osvaldo Cruz</h3>
-                        <p>Pro Member</p>
-                    </div>
-
-                    <div class="links">
-                        <div class="link">
-                            <ion-icon name="musical-notes-outline"></ion-icon>
-                            <h2>Spotify</h2>
-                        </div>
-
-                        <div class="link">
-                            <ion-icon name="videocam-outline"></ion-icon>
-                            <h2>Videos</h2>
-                        </div>
-
-                        <div class="link">
-                            <ion-icon name="star-outline"></ion-icon>
-                            <h2>New</h2>
-                        </div>
-                        <div class="link">
-                            <ion-icon name="library-outline"></ion-icon>
-                            <h2>Library</h2>
-                        </div>
-                    </div>
-                    
-                    <div class="pro">
-                        <h2>Join pro for free music.</h2>
-                        <ion-icon name="headset-outline"></ion-icon>
-                    </div>
-
-                </div>
-
-                <div class="music">
-
-                    <div class="status">
-                        <h1>Favorite Albums</h1>
-                        <input type="text" name="search" id="search">
-                    </div>
-
-                    <div class="cards" id="lista">
-                        <div class="card" data-id="1">
-                            <img src="img/Red (Taylor's Version).jpg" alt="Red (Taylor's Version)">
-                            <div class="card-info">
-                                <h2>Red (Taylor's Version)</h2>
-                                <p>Taylor Swift</p>
-                            </div>
-                            <h2 class="score">95%</h2>
-                        </div>
-
-                        <div class="card" data-id="2">
-                            <img src="img/folklore.jpg" alt="folklore">
-                            <div class="card-info">
-                                <h2>folklore</h2>
-                                <p>Taylor Swift</p>
-                            </div>
-                            <h2 class="score">90%</h2>
-                        </div>
-
-                        <div class="card" data-id="3">
-                            <img src="img/1989.jpg" alt="1989">
-                            <div class="card-info">
-                                <h2>1989</h2>
-                                <p>Taylor Swift</p>
-                            </div>
-                            <h2 class="score">85%</h2>
-                        </div>
-                    </div>
+                    <form action="glass-page.html" class="box" method="post">
+                        <h1>Login</h1>
+                        <label for="usuario"></label>
+                        <input type="text" name="usuario" id="usuario" placeholder="Username">
+                        <label for="password"></label>
+                        <input type="password" name="password" id="password" placeholder="Password">
+                        <input type="submit" value="Login">
+                    </form>
 
                 </div>
 
